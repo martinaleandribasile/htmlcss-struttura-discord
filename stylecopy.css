@@ -6,15 +6,16 @@
 
 body {
     font-family: sans-serif;
+    line-height: 1.6;
 }
 
 header {
     height: 600px;
+    background-color: cadetblue;
 }
 
 .menu {
-    padding: 40px 300px;
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -39,9 +40,6 @@ header {
     margin-bottom: 30px;
 }
 
-.main {
-    background-color: bisque;
-}
 
 .imgblock {
     width: 50%;
@@ -58,14 +56,7 @@ header {
     padding-bottom: 70px;
 }
 
-#download {
-    width: 20%;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: #8ea1e1;
-}
+
 
 .pulsante {
     text-align: center;
@@ -78,6 +69,14 @@ header {
 footer {
     background-color: #23272a;
     padding: 30px 0;
+}
+
+.textblock>p {
+    padding-top: 15px;
+}
+
+.tecnology>* {
+    padding-bottom: 30px;
 }
 
 .flexrow {
@@ -104,6 +103,10 @@ footer {
 
 }
 
+.flexrowdownload {
+    display: flex;
+    justify-content: center;
+}
 
 .flexcolumn {
     display: flex;
@@ -112,7 +115,35 @@ footer {
     padding-top: 30px;
 }
 
+.download {
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    margin-top: 30px;
+}
 
+.macheader {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.opensource {
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    background-color: #23272a;
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.download::before {
+    content: "\2193";
+}
 
 /* DIMENSIONI */
 
@@ -120,22 +151,11 @@ footer {
     height: 300px;
 }
 
-.chillinimg {
+.imgchill {
     height: 500px;
     background-color: aqua;
-}
-
-/* /DIMENSIONI */
-
-
-/*COLOR*/
-header {
-    background-color: blue;
-}
-
-
-.leftblock {
-    background-color: green;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
 option,
@@ -152,8 +172,8 @@ select {
 }
 
 /* /COLOR  */
-h1 {
-    padding-bottom: 50px;
+.title {
+    padding-top: 50px;
 }
 
 a {
@@ -175,13 +195,6 @@ a {
     margin: 0;
 }
 
-.textblock>p {
-    padding-top: 15px;
-}
-
-.tecnology>* {
-    padding-bottom: 30px;
-}
 
 
 li {
@@ -189,4 +202,8 @@ li {
     padding: 10px 0;
     list-style-type: none;
     font-weight: 700;
+}
+
+.color {
+    background-color: rgb(195, 198, 198);
 }
