@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flexpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.flexrowfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: chartreuse;
+    width: 1000px;
+}
+
+.description {
+    align-self: center;
+    margin-top: 100px;
+}
+
+.flexcolumnfooter {
+    display: flex;
+    row-gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.flexrowfooter2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+/* DIMENSIONI */
+.height100 {
+    margin: 0 80px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.height500 {
+    height: 500px;
+}
+
+.height700 {
+    height: 700px;
+}
+
+.height1000 {
+    height: 1000px;
+}
+
+.rect2 {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.rect3 {
+    width: 900px;
+    height: 50px;
+    background-color: rgb(69, 187, 171);
+}
+
+.rect {
+    width: 500px;
+    height: 200px;
+    background-color: orange;
+}
+
+.dimensions {
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    background-color: coral;
+}
+
+.list {
+    width: 80px;
+    height: 300px;
+    background-color: deeppink;
+}
+
+/* /DIMENSIONI */
+
+
+/*COLOR*/
+header {
+    background-color: blue;
+}
+
+.bkcolor {
+    background-color: gray;
+}
+
+footer {
+    background-color: rgb(49, 45, 45);
+}
+
+.rightblock {
+    background-color: red;
+}
+
+.leftblock {
+    background-color: green;
+}
+
+.centerblock {
+    background-color: fuchsia;
+}
+
+hr {
+    color: rgb(255, 0, 0);
+}
+
+.singin {
+    background-color: greenyellow;
+    width: 1000px;
+    height: 100px;
+
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
