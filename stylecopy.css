@@ -8,119 +8,121 @@ body {
     font-family: sans-serif;
 }
 
-.linea {
-    width: 1000px;
+header {
+    height: 600px;
+}
+
+.menu {
+    padding: 40px 300px;
+    max-width: 70%;
     margin: 0 auto;
 }
 
-.flexpage {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.container {
+    max-width: 40%;
+    margin: 0 auto;
 }
 
-.flexcolumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.containerfooter {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+    padding: 20px 0 90px;
+    color: white;
+    font-size: 20px
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.main {
+    background-color: bisque;
+}
+
+.imgblock {
+    width: 50%;
+    background-color: aqua;
+}
+
+.textblock {
+    width: 30%;
+    padding: 0px 100px 10px 0px;
+}
+
+.tecnology {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#download {
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+}
+
+.pulsante {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+}
+
+footer {
+    background-color: #23272a;
+    padding: 30px 0;
 }
 
 .flexrow {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
 .flexrowmain {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+
+}
+
+.flexrowlink {
+    display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-.flexrowfooter {
-    margin: 80px auto 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: chartreuse;
-    width: 1000px;
-}
 
-.description {
-    align-self: center;
-    margin-top: 100px;
-}
-
-.flexcolumnfooter {
+.flexcolumn {
     display: flex;
-    row-gap: 50px;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
-.flexrowfooter2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    margin: 20px auto;
-}
+
 
 /* DIMENSIONI */
-.height100 {
-    margin: 0 80px;
-    height: 100px;
-    background-color: blanchedalmond;
+
+.height300 {
+    height: 300px;
 }
 
-.height500 {
+.chillinimg {
     height: 500px;
-}
-
-.height700 {
-    height: 700px;
-}
-
-.height1000 {
-    height: 1000px;
-}
-
-.rect2 {
-    width: 100px;
-    height: 50px;
     background-color: aqua;
-}
-
-.rect3 {
-    flex-basis: 700px;
-}
-
-.rect {
-    width: 500px;
-    height: 200px;
-    background-color: orange;
-}
-
-.dimensions {
-    width: 300px;
-    height: 300px;
-}
-
-.box {
-    width: 150px;
-    height: 80px;
-    background-color: coral;
-}
-
-.list {
-    width: 80px;
-    height: 300px;
-    background-color: deeppink;
 }
 
 /* /DIMENSIONI */
@@ -131,37 +133,60 @@ header {
     background-color: blue;
 }
 
-.bkcolor {
-    background-color: gray;
-}
-
-footer {
-    background-color: rgb(49, 45, 45);
-}
-
-.rightblock {
-    background-color: red;
-}
 
 .leftblock {
     background-color: green;
 }
 
-.centerblock {
-    background-color: fuchsia;
+option,
+select {
+    text-decoration: none;
+    border: none;
+    background-color: #23272a;
+    color: white;
 }
 
-.singin {
-    background-color: greenyellow;
-    width: 1000px;
-    height: 100px;
-
+.colortitlefooter {
+    color: #8ea1e1;
+    padding-bottom: 10px;
 }
 
 /* /COLOR  */
+h1 {
+    padding-bottom: 50px;
+}
 
 a {
     color: white;
     text-decoration: none;
     font-size: large;
+    margin: 0 25px;
+}
+
+.login {
+    text-align: center;
+    border-radius: 25%;
+    background-color: white;
+    padding: 10px;
+}
+
+.login>a {
+    color: black;
+    margin: 0;
+}
+
+.textblock>p {
+    padding-top: 15px;
+}
+
+.tecnology>* {
+    padding-bottom: 30px;
+}
+
+
+li {
+    color: white;
+    padding: 10px 0;
+    list-style-type: none;
+    font-weight: 700;
 }
