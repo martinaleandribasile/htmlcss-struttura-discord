@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+button {
+    border: none;
+    cursor: grab;
+}
+
+.color {
+    background-color: #f6f6f6;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1.6;
@@ -17,6 +26,13 @@ header {
     background-position: bottom;
 }
 
+.logo {
+    width: 10%;
+    background-image: url("img/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .menu {
     max-width: 60%;
     margin: 0 auto;
@@ -27,28 +43,6 @@ header {
     margin: 0 auto;
 }
 
-button {
-    border: none;
-    cursor: grab;
-}
-
-.containerfooter {
-    max-width: 60%;
-    margin: 0 auto;
-}
-
-.description {
-    text-align: center;
-    padding: 20px 0 90px;
-    color: white;
-    font-size: 20px
-}
-
-.title {
-    margin-bottom: 30px;
-}
-
-
 .imgblock {
     height: 500px;
     width: 60%;
@@ -57,6 +51,106 @@ button {
 .textblock {
     width: 30%;
     padding: 0px 50px 10px 10px;
+}
+
+.imgchill {
+    height: 600px;
+    background-image: url("img/item4-big.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.stars {
+    padding: 25px 30px;
+    background-image: url("img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item1 {
+    background-image: url("img/item1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url("img/item2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url("img/item3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #23272a;
+    padding: 30px 0;
+}
+
+.containerfooter {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/*  ---------------------------------style-------------------------------------------  */
+.description {
+    text-align: center;
+    padding: 20px 0 90px;
+    color: white;
+    font-size: 20px
+}
+
+.login {
+    text-align: center;
+    border-radius: 30%;
+    background-color: white;
+    padding: 10px 3px;
+}
+
+.login>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+    margin: 0 25px;
+}
+
+.title {
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.download {
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    margin-top: 30px;
+}
+
+.download::before {
+    content: "\2193";
+}
+
+.macheader {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.opensource {
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 40%;
+    background-color: #23272a;
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 .tecnology {
@@ -72,12 +166,6 @@ button {
     background-color: #8ea1e1;
 }
 
-footer {
-    background-color: #23272a;
-    padding: 30px 0;
-}
-
-
 .textblock>p {
     padding-top: 15px;
 }
@@ -86,6 +174,49 @@ footer {
     padding-bottom: 30px;
 }
 
+option,
+select {
+    text-decoration: none;
+    border: none;
+    background-color: #23272a;
+    color: white;
+}
+
+.colortitlefooter {
+    color: #8ea1e1;
+    padding-bottom: 10px;
+}
+
+.options>a {
+    color: white;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+li,
+li>a {
+    cursor: pointer;
+    color: white;
+    padding: 10px 0;
+    list-style-type: none;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.fab {
+    width: 50px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.pulsante {
+    text-decoration: none;
+}
+
+/*  --------------------------------------------flex-----------------------------------------  */
 .flexrow {
     display: flex;
     justify-content: space-between;
@@ -124,141 +255,4 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.download {
-    text-align: center;
-    color: white;
-    padding: 20px 20px;
-    border-radius: 30px;
-    background-color: #8ea1e1;
-    margin-top: 30px;
-}
-
-
-.macheader {
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-}
-
-.opensource {
-    border-radius: 30px;
-    text-align: center;
-    padding: 20px 20px;
-    width: 40%;
-    background-color: #23272a;
-    color: white;
-    margin-left: 40px;
-    margin-top: 30px;
-}
-
-.download::before {
-    content: "\2193";
-}
-
-.imgchill {
-    height: 600px;
-    background-image: url("img/item4-big.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-bottom: 80px;
-}
-
-option,
-select {
-    text-decoration: none;
-    border: none;
-    background-color: #23272a;
-    color: white;
-}
-
-.colortitlefooter {
-    color: #8ea1e1;
-    padding-bottom: 10px;
-}
-
-.title {
-    padding-top: 50px;
-}
-
-.login>a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: large;
-    margin: 0 25px;
-}
-
-.options>a {
-    color: white;
-    margin: 0 25px;
-    text-decoration: none;
-    font-size: larger;
-}
-
-.login {
-    text-align: center;
-    border-radius: 30%;
-    background-color: white;
-    padding: 10px 3px;
-}
-
-
-
-li,
-li>a {
-    cursor: pointer;
-    color: white;
-    padding: 10px 0;
-    list-style-type: none;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.color {
-    background-color: #f6f6f6;
-}
-
-.fab {
-    width: 50px;
-    text-decoration: none;
-    color: white;
-    margin-top: 30px;
-    font-size: x-large;
-}
-
-.pulsante {
-    text-decoration: none;
-}
-
-.stars {
-    padding: 25px 30px;
-    background-image: url("img/stars.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.item1 {
-    background-image: url("img/item1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.item2 {
-    background-image: url("img/item2.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.item3 {
-    background-image: url("img/item3.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.logo {
-    width: 10%;
-    background-image: url("img/logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
