@@ -10,8 +10,11 @@ body {
 }
 
 header {
-    height: 600px;
-    background-color: #3161e0;
+    height: 700px;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .menu {
@@ -47,8 +50,7 @@ button {
 
 
 .imgblock {
-    width: 50%;
-    background-color: aqua;
+    width: 60%;
 }
 
 .textblock {
@@ -58,7 +60,7 @@ button {
 
 .tecnology {
     text-align: center;
-    padding-bottom: 70px;
+    padding: 70px 0;
 }
 
 .pulsante {
@@ -79,7 +81,7 @@ footer {
     padding-top: 15px;
 }
 
-.tecnology>* {
+.tecnologyspace {
     padding-bottom: 30px;
 }
 
@@ -121,7 +123,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
 }
 
 .download {
@@ -154,15 +155,11 @@ footer {
     content: "\2193";
 }
 
-/* DIMENSIONI */
-
-.height300 {
-    height: 300px;
-}
-
 .imgchill {
-    height: 500px;
-    background-color: aqua;
+    height: 600px;
+    background-image: url("img/item4-big.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     margin-bottom: 80px;
 }
@@ -180,7 +177,6 @@ select {
     padding-bottom: 10px;
 }
 
-/* /COLOR  */
 .title {
     padding-top: 50px;
 }
@@ -201,7 +197,7 @@ select {
 
 .login {
     text-align: center;
-    border-radius: 40%;
+    border-radius: 30%;
     background-color: white;
     padding: 10px 3px;
 }
@@ -219,7 +215,7 @@ li>a {
 }
 
 .color {
-    background-color: rgb(195, 198, 198);
+    background-color: #f6f6f6;
 }
 
 .fab {
@@ -234,7 +230,34 @@ li>a {
     text-decoration: none;
 }
 
-.italianflag {
-    height: 16px;
-    background-image: url("https://images.emojiterra.com/twitter/v13.1/512px/1f1ee-1f1f9.png");
+.stars {
+    padding: 25px 30px;
+    background-image: url("img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item1 {
+    background-image: url("img/item1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item2 {
+    background-image: url("img/item2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item3 {
+    background-image: url("img/item3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 10%;
+    background-image: url("img/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
