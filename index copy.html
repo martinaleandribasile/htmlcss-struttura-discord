@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="stylecopy.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,9 +20,9 @@
                 <a href="#"> Sicurezza </a>
                 <a href="#"> Assistenza </a>
             </div>
-            <div class="login">
+            <button class="login">
                 <a href="#">Accedi</a>
-            </div>
+            </button>
         </div>
         <div class="container description">
             <h1 class="title">Il tuo posto per parlare</h1>
@@ -35,8 +32,8 @@
                 chiaccherare
                 ogni giorno e ritrovarsi piu' spesso</p>
             <div class="flexrowdownload">
-                <div class="download macheader"> Scarica per Mac</div>
-                <div class="opensource"> Apri Discord nel tuo browser</div>
+                <button class="download macheader"> Scarica per Mac</button>
+                <button class="opensource"> Apri Discord nel tuo browser</button>
             </div>
         </div>
 
@@ -86,7 +83,7 @@
                         condivisione schermo.</p>
                     <div class="imgchill"></div>
                     <h4>Pronto per iniziare la tua avventura?</h4>
-                    <div class="download"> Scarica per Mac</div>
+                    <button class="download"> Scarica per Mac</button>
                 </div>
             </div>
         </div>
@@ -95,9 +92,11 @@
                 <div class="utilities flexrowmain">
                     <div class="contact boxflex">
                         <h1 class="colortitlefooter">Il tuo posto per parlare</h1>
-                        <select class="" name="languages">
-                            <option value="Italian"> Italiano</option>
-                            <!-- scrivo dopo il value il txt che mi andra' visualmente a identificare le opzioni-->
+                        <label for="lang"> &#127470;&#127481;</label>
+                        <select id="lang" name="languages">
+                            <option value="Italian">
+                                Italiano
+                            </option>
                             <option value="English">Inglese</option>
                         </select>
                         <div class="containericons flexrowicons">
@@ -110,47 +109,47 @@
                     <div class="product list">
                         <h2 class="colortitlefooter"> Prodotto</h2>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perche'Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
+                            <li> <a href="#">Scarica</a></li>
+                            <li> <a href="#">Perche'Discord</a></li>
+                            <li> <a href="#">Nitro</a></li>
+                            <li> <a href="#">Sicurezza</a></li>
+                            <li> <a href="#">Assistenza</a></li>
+
                         </ul>
                     </div>
                     <div class="company list">
                         <h2 class="colortitlefooter"> Compagnia</h2>
                         <ul>
-                            <li>Chi Siamo</li>
-                            <li>Lavora con noi</li>
-                            <li>Marchio</li>
-                            <li>Redazione</li>
-                            <li>Negozio</li>
+                            <li> <a href="#">Chi Siamo</a></li>
+                            <li> <a href="#">Lavora con noi</a></li>
+                            <li> <a href="#">Marchio</a></li>
+                            <li> <a href="#">Redazione</a></li>
+                            <li> <a href="#">Negozio</a></li>
                         </ul>
                     </div>
                     <div class="resources list">
                         <h2 class="colortitlefooter"> Risorse</h2>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perche'Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
-                            <li>Scarica</li>
-                            <li>Perche'Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
-                            <li>Assistenza</li>
+                            <li> <a href="#">Scarica</a></li>
+                            <li> <a href="#">Perche'Discord</a></li>
+                            <li> <a href="#">Nitro</a></li>
+                            <li> <a href="#">Sicurezza</a></li>
+                            <li> <a href="#">Assistenza</a></li>
+                            <li> <a href="#">Scarica</a></li>
+                            <li> <a href="#">Perche'Discord</a></li>
+                            <li> <a href="#">Nitro</a></li>
+                            <li> <a href="#">Sicurezza</a></li>
+                            <li> <a href="#">Assistenza</a></li>
                         </ul>
                     </div>
                     <div class="rules list">
                         <h2 class="colortitlefooter"> Nome</h2>
                         <ul>
-                            <li>Scarica</li>
-                            <li>Perche'Discord</li>
-                            <li>Nitro</li>
-                            <li>Sicurezza</li>
-                            <li>Assistenza</li>
+                            <li> <a href="#">Scarica</a></li>
+                            <li> <a href="#">Perche'Discord</a></li>
+                            <li> <a href="#">Nitro</a></li>
+                            <li> <a href="#">Sicurezza</a></li>
+                            <li> <a href="#">Assistenza</a></li>
                         </ul>
                     </div>
                 </div>
@@ -160,7 +159,6 @@
                     <a class="pulsante" href="#">Registrati</a>
                 </div>
             </div>
-
         </footer>
     </div>
 

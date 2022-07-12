@@ -11,7 +11,7 @@ body {
 
 header {
     height: 600px;
-    background-color: cadetblue;
+    background-color: #3161e0;
 }
 
 .menu {
@@ -22,6 +22,11 @@ header {
 .container {
     max-width: 40%;
     margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: grab;
 }
 
 .containerfooter {
@@ -122,11 +127,12 @@ footer {
 .download {
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 20px 20px;
     border-radius: 30px;
     background-color: #8ea1e1;
     margin-top: 30px;
 }
+
 
 .macheader {
     color: rgb(0, 0, 0);
@@ -136,7 +142,7 @@ footer {
 .opensource {
     border-radius: 30px;
     text-align: center;
-    padding: 10px;
+    padding: 20px 20px;
     width: 40%;
     background-color: #23272a;
     color: white;
@@ -195,18 +201,21 @@ select {
 
 .login {
     text-align: center;
-    border-radius: 25%;
+    border-radius: 40%;
     background-color: white;
-    padding: 10px;
+    padding: 10px 3px;
 }
 
 
 
-li {
+li,
+li>a {
+    cursor: pointer;
     color: white;
     padding: 10px 0;
     list-style-type: none;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .color {
@@ -223,4 +232,9 @@ li {
 
 .pulsante {
     text-decoration: none;
+}
+
+.italianflag {
+    height: 16px;
+    background-image: url("https://images.emojiterra.com/twitter/v13.1/512px/1f1ee-1f1f9.png");
 }
